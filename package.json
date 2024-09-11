@@ -1,0 +1,25 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "generate invoice in pdf format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "pdf",
+    "invoice"
+  ],
+  "author": "Gaurav Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.20.0",
+    "handlebars": "^4.7.8",
+    "nodemon": "^3.1.4",
+    "puppeteer": "^23.3.0",
+    "uuid": "^10.0.0"
+  }
+}
